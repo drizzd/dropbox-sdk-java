@@ -69,7 +69,6 @@ public class OkHttpRequestor extends HttpRequestor {
      *
      * If you don't use {@link #defaultOkHttpClient()}, make sure to use Dropbox's
      * hardened SSL settings from {@link SSLConfig}:
-     * </p>
      *
      * <pre>
      * client.setSslSocketFactory(SSLConfig.getSSLSocketFactory())
